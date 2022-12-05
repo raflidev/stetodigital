@@ -1,0 +1,48 @@
+.button {
+    background-color: #5246c2; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  #submit-btn {
+    background: -webkit-linear-gradient(right, #726bd1, #5466cc);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 1px 8px #191a19;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 5 auto;
+    margin-top: 10px;
+    transition: 0.25s;
+    width: 100px;
+    padding: 20px;
+  }
+  #submit-btn:hover {
+    box-shadow: 0px 1px 18px #ffffff;
+  }
+
+.form-style-10{
+  width:450px;
+  padding:30px;
+  margin:40px auto;
+  background: #FFF;
+  border-radius: 10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}

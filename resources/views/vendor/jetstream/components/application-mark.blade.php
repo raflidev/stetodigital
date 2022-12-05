@@ -1,0 +1,2 @@
+<!-- <img src="https://miro.medium.com/max/1200/1*anSazwoTMKra5IuiJumjng.png" alt="" style="width: 50px; height:50px;"> -->
+<img src="{{ asset('img/logo.png') }}" alt="" style="width: 50px; height:50px;">
