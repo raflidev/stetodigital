@@ -29,7 +29,8 @@
                         </button>
                     </div>
                 </form>
-                <form method="POST" action="{{url('run')}}">
+                <!-- <form method="POST" action="{{url('run')}}"> -->
+                    <form>
                     @csrf
                     <div class="py-5 pl-28">
                         <x-jet-label for='name' value="{{ __('Select Signal Data') }}" />
@@ -42,9 +43,9 @@
                             @endif
                             @endforeach
                         </select>
-                        <button class="px-5 sm:rounded-lg bg-yellow-400 text-black-800 font-bold p-4 uppercase border-t border-b border-r" type="submit">
+                        <a href="/owncheck/result" class="px-5 sm:rounded-lg bg-yellow-400 text-black-800 font-bold p-4 uppercase border-t border-b border-r" type="submit">
                             {{ __('Run') }}
-                        </button>
+                        </a>
                     </div>
                 </form>
             </div>
