@@ -43,6 +43,12 @@ class PasienController extends Controller
         $dataSignal = MachineLearning::where('pasien_id', $activeUser->id)->get();
         return view('pasien.pasien.owncheck', compact('dataSignal'));
     }
+    
+    public function result()
+    {
+        $activeUser = User::find(Auth::id());
+        return view('pasien.pasien.result');
+    }
 
     public function postScanning()
     {
