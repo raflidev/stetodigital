@@ -44,7 +44,7 @@ class PasienController extends Controller
         return view('pasien.pasien.owncheck', compact('dataSignal'));
     }
     
-    public function result()
+    public function resultbest()
     {
         $activeUser = User::find(Auth::id());
         return view('pasien.pasien.result');
