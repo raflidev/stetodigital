@@ -3,12 +3,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="px-6 py-3 bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <div class="mt-4">
-                    @foreach ($username as $nameuser)
-                    <p>Doctor or Nurse : {{$nameuser->name}}</p>
-                    @endforeach
-                </div>
-                <div class="mt-4">
-                    <p>Filename : {{$namafile}}</p>
+                    <p>Doctor or Nurse : Galih handoko</p>
                 </div>
             </div>
         </div>

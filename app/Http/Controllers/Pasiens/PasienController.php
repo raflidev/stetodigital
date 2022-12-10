@@ -46,8 +46,7 @@ class PasienController extends Controller
     
     public function resultbest()
     {
-        $activeUser = User::find(Auth::id());
-        return view('pasien.pasien.result');
+        return view('pasien.pasien.result2');
     }
 
     public function postScanning()
