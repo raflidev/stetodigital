@@ -30,7 +30,7 @@ Route::get('/addDoctorOrNurse', 'App\Http\Controllers\Pasiens\PasienController@a
 
 Route::get('/owncheck', 'App\Http\Controllers\Pasiens\PasienController@ownCheck');
 
-Route::get('/result', 'App\Http\Controllers\Pasiens\PasienController@result');
+Route::get('/result', 'App\Http\Controllers\Pasiens\PasienController@resultbest');
 
 Route::post('/upload_signal', 'App\Http\Controllers\Pasiens\PasienController@uploadSignal');
 Route::get('/postScanning', 'App\Http\Controllers\Pasiens\PasienController@postScanning');
